@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>112 Red Cherry Lane · Stroudsburg</title>
+<meta name="description" content="1.82 acres in Cherry Valley. No HOA. Pole barn with 10-foot doors. $549,900. Yarrow Wilkins, RE/MAX Crossroads.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,620&family=Outfit:wght@340;500;560&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#17211b; --forest:#14241c; --gold:#e7c98a; --cream:#f3eee6; --muted:#5c655e; }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; color: var(--ink); background: var(--cream); font-family: Outfit, sans-serif; font-weight: 340; }
+  img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  a { color: inherit; text-decoration: none; }
+  .bar {
+    position: absolute; z-index: 3; top: 0; left: 0; right: 0;
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 22px 36px; color: #f6f1e7;
+    background: linear-gradient(to bottom, rgba(10,16,12,.55), transparent);
+  }
+  .bar b { font-family: Fraunces, Georgia, serif; font-weight: 500; font-size: 18px; }
+  .bar span { display: block; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; opacity: .8; }
+  .call {
+    border: 1px solid rgba(246,241,231,.7); padding: 10px 16px; border-radius: 2px;
+    letter-spacing: .04em; font-size: 14px;
+  }
+  .hero { position: relative; height: 100vh; min-height: 640px; background: #111; }
+  .hero img { position: absolute; inset: 0; }
+  .hero-copy {
+    position: absolute; left: 0; right: 0; bottom: 0;
+    padding: 0 48px 48px;
+    background: linear-gradient(to top, rgba(8,14,10,.78), transparent 70%);
+    color: #f7f3ea;
+  }
+  .kicker { letter-spacing: .2em; text-transform: uppercase; font-size: 12px; color: var(--gold); margin-bottom: 10px; }
+  h1 {
+    font-family: Fraunces, Georgia, serif; font-weight: 500;
+    font-size: clamp(48px, 7vw, 92px); line-height: .92; margin: 0 0 18px; letter-spacing: -.03em;
+  }
+  .price-line { display: flex; gap: 22px; align-items: baseline; flex-wrap: wrap; }
+  .price { font-family: Fraunces, Georgia, serif; font-size: 32px; }
+  .was { opacity: .75; font-size: 14px; }
+  .stats {
+    display: grid; grid-template-columns: repeat(5, 1fr);
+    background: #101a15; color: #f6f1e7;
+  }
+  .stat { padding: 22px 20px; border-right: 1px solid rgba(255,255,255,.08); }
+  .stat:last-child { border-right: 0; }
+  .stat b { display: block; font-family: Fraunces, Georgia, serif; font-size: 26px; font-weight: 500; }
+  .stat span { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); }
+  .story {
+    display: grid; grid-template-columns: 1.1fr .9fr; min-height: 78vh;
+  }
+  .story-copy { padding: 72px 56px; display: flex; flex-direction: column; justify-content: center; }
+  h2 {
+    font-family: Fraunces, Georgia, serif; font-weight: 500;
+    font-size: clamp(36px, 4vw, 58px); line-height: .98; margin: 0 0 16px; letter-spacing: -.02em;
+  }
+  p { font-size: 18px; line-height: 1.5; color: #3c463f; max-width: 460px; }
+  .dusk { min-height: 78vh; }
+  .proof { display: grid; grid-template-columns: 1.15fr .85fr; background: var(--forest); color: #f6f1e7; }
+  .proof img { min-height: 560px; }
+  .proof-copy { padding: 64px 48px; }
+  .proof-copy p { color: #ddd4c6; }
+  .rows { margin-top: 28px; }
+  .rows div { display: flex; justify-content: space-between; gap: 18px; padding: 14px 0; border-top: 1px solid rgba(255,255,255,.12); }
+  .rows b { font-family: Fraunces, Georgia, serif; font-weight: 500; font-size: 18px; }
+  .rows span { color: #d7cec0; text-align: right; }
+  .close {
+    display: grid; grid-template-columns: 1fr 1fr; min-height: 70vh; background: #101a15; color: #f6f1e7;
+  }
+  .close-copy { padding: 72px 56px; display: flex; flex-direction: column; justify-content: flex-end; }
+  .close a.big {
+    display: inline-block; margin-top: 22px; background: var(--gold); color: #14241c;
+    padding: 14px 18px; font-weight: 560; width: fit-content;
+  }
+  .close p { color: #ddd4c6; }
+  footer { padding: 22px 36px 32px; color: var(--muted); font-size: 13px; }
+  @media (max-width: 800px) {
+    .story, .proof, .close, .stats { grid-template-columns: 1fr; }
+    .hero-copy, .story-copy, .proof-copy, .close-copy { padding: 28px 20px; }
+    .bar { padding: 16px; }
+    h1 { font-size: 46px; }
+    .dusk, .proof img { min-height: 320px; }
+  }
+</style>
+</head>
+<body>
+  <section class="hero">
+    <img src="woods.jpg" alt="112 Red Cherry Lane, brick colonial in the trees">
+    <div class="bar">
+      <div><b>112 Red Cherry Lane</b><span>Cherry Valley · Smithfield</span></div>
+      <a class="call" href="tel:+15704248850">570-424-8850</a>
+    </div>
+    <div class="hero-copy">
+      <div class="kicker">Stroudsburg · 18360</div>
+      <h1>Land first.<br>The house second.</h1>
+      <div class="price-line">
+        <div class="price">$549,900</div>
+        <div class="was">Listed $575,000 · reduced August 8</div>
+      </div>
+    </div>
+  </section>
+  <div class="stats">
+    <div class="stat"><b>1.82</b><span>Acres · no HOA</span></div>
+    <div class="stat"><b>3,051</b><span>Square feet</span></div>
+    <div class="stat"><b>3</b><span>Bedrooms</span></div>
+    <div class="stat"><b>2 + 2</b><span>Full and half baths</span></div>
+    <div class="stat"><b>4</b><span>Garage spaces</span></div>
+  </div>
+  <section class="story">
+    <div class="story-copy">
+      <div class="kicker">The land</div>
+      <h2>1.82 private acres. No association.</h2>
+      <p>A brick colonial on a wooded lot in Cherry Valley, not in a subdivision. Attached two-car garage, plus a pole barn with 10-foot overhead doors. Room for the truck. Room for the workshop.</p>
+    </div>
+    <div class="dusk"><img src="exterior-day.jpg" alt="Front of 112 Red Cherry Lane"></div>
+  </section>
+  <section class="proof">
+    <img src="mechanical.jpg" alt="Mechanical room at 112 Red Cherry Lane">
+    <div class="proof-copy">
+      <div class="kicker">Already done</div>
+      <h2>The work a buyer usually inherits.</h2>
+      <p>Water treatment, radon mitigation, and a serviced boiler are in the house. See them before you write.</p>
+      <div class="rows">
+        <div><b>Water</b><span>Sulfinator and reverse osmosis</span></div>
+        <div><b>Air</b><span>Radon mitigation · central air</span></div>
+        <div><b>Heat</b><span>Serviced boiler · oil and heat pump</span></div>
+        <div><b>Doors</b><span>10-foot overhead · 4 spaces</span></div>
+        <div><b>Taxes</b><span>$8,632 in 2025</span></div>
+      </div>
+    </div>
+  </section>
+  <section class="close">
+    <div class="close-copy">
+      <div class="kicker">Private showing</div>
+      <h2>Walk the barn before you walk the bedrooms.</h2>
+      <p>Yarrow Wilkins, Broker / Owner, RE/MAX Crossroads. 815 Seven Bridge Road, East Stroudsburg.</p>
+      <a class="big" href="tel:+15704248850">Call 570-424-8850</a>
+    </div>
+    <img src="exterior-dusk.jpg" alt="112 Red Cherry Lane at dusk">
+  </section>
+  <footer>112 Red Cherry Lane, Stroudsburg, PA 18360 · MLS PM142944 · RE/MAX Crossroads</footer>
+</body>
+</html>
